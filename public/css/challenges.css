@@ -1,0 +1,122 @@
+.title {
+    width: 100%;
+    min-height: 200px;
+    background-color: purple;
+    margin-top: -25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title h1 {
+    color: white;
+    font-size: 45px;
+}
+
+.practice-content {
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.practice-content form {
+    display: flex;
+    gap: 30px;
+    height: 70px;
+}
+
+.practice-content form label {
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+}
+
+.practice-content form select {
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.practice-content form button {
+    width: 100px;
+    height: 50px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: larger;
+}
+
+.white-space {
+
+}
+
+.list-labs {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.chall-title h2 {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.forensics-chall, .web-chall, .reverse-chall, .crypto-chall, .osint-chall, .pwn-chall {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+
+.lab-open {
+    width: 200px;
+    height: 150px;
+    border: 1px solid gray;
+    background-color: rgb(103, 103, 103);
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lab-close {
+    width: 200px;
+    height: 150px;
+    border: 1px solid gray;
+    background-color: green;
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#name {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#point {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}

@@ -1,0 +1,125 @@
+hr {
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.jumbotron {
+    margin-top: -30px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+}
+
+.jumbotron span {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+
+}
+
+.card-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 45px;
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    max-height: max-content;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: relative;
+}
+.card hr {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+.card h3 {
+    font-size: 2rem;
+    margin: 5px 0;
+    padding-top: 10px;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
+.card p {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    margin: 10px 0;
+}
+
+.time-section {
+    width: 100%;
+    height: 30%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.time-section p {
+    width: 100%;
+    height: 10%;
+    font-size: 1.5em;
+    text-align: left; 
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
+.time-section1 p {
+    width: 100%;
+    height: 10%;
+    font-size: 1.4em;
+    text-align: left; 
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
+.bullet-list {
+    width: 100%;
+    height: 60%;
+    padding-left: 40px;
+    list-style: disc;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    font-size: 1.2rem;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
+.bullet-list2 {
+    width: 82%;
+    height: 60%;
+    padding-left: 60px;
+    list-style: circle;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
+.bullet-list li {
+    width: 100%;
+    height: 15%;
+}
+
