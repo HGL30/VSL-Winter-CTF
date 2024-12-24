@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VSL Winter CTF 2024</title>
+    <title>VSL Spring CTF 2024</title>
     <link rel="icon" type="image/png" href="{{ asset('Photo/favicon-32x32.png') }}">
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -22,10 +22,10 @@
     </nav>
     <div class="video-container">
         <p>
-            Welcome to VSL Winter CTF 2024 <br>
+            Welcome to VSL Spring CTF 2024 <br>
             <span id="countdown"></span> <br>
             <script>
-                const targetDate = new Date("2024-12-21T08:00:00").getTime();
+                const targetDate = new Date("2025-02-14T08:00:00").getTime();
 
                 // Cập nhật đồng hồ mỗi giây
                 const countdown = setInterval(function() {

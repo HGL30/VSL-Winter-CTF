@@ -7,8 +7,7 @@
 
 .left-content {
     width: 15%;
-    height: 83vh;
-    min-height: 100%;
+    height: 70vh;
     background-color: purple;
     display: flex;
     flex-direction: column;
@@ -71,8 +70,7 @@
 
 .right-content {
     width: 85%;
-    height: 83vh;
-    min-height: 100%;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     gap: 10px;

@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>VSL Winter CTF 2024</title>
+    <title>VSL Spring CTF 2024</title>
     <link rel="icon" type="image/png" href="{{ asset('Photo/favicon-32x32.png') }}">
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.bunny.net">
@@ -144,11 +144,11 @@
         </div>
     </nav>
 
-    <div class="pt-4" style="min-height: 1200px; background-color: white;">
+    <div class="pt-4" style="min-height: 70vh; background-color: white;">
         @yield('content')
     </div>
     <div>
-        @extends('layouts.footer')
+        @include('layouts.footer')
     </div>
 </body>
 </html>
